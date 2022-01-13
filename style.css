@@ -1,0 +1,86 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common Styles */
+body{
+  margin: 0;
+}
+.container{
+  font-family: 'Poppins', sans-serif;
+}
+/* Top-section */
+.top{
+  background-color: #2D25A0;
+  color: white;
+  width: 100%;
+  height: 640px;
+}
+.top-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.top-half{
+  padding-top: 70px;
+}
+.first{
+  width: 485px;
+}
+.top-text{
+  font-size: 64px;
+  line-height: 80px;
+}
+.button-box{
+  width: 168px;
+height: 44px;
+background-color: #E02C6D;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button-box:hover{
+transform: scale(1.2);
+transition: 1s;
+}
+.top-half img{
+    width: 556px;
+    height: 456px;
+    
+}
+.top-half img:hover{
+  transform: rotate(40deg);
+  transition: 2s;
+}
+
+/* Players Card info */
+.card{
+  margin-top: 30px;
+
+}
+.players{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+  grid-row-gap: 30px;
+}
+.player-card{
+  width: 330px;
+  height: 480px;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 10px;
+  
+}
+.player{
+padding:15px;
+}
+.player-name{
+  font-size: 28px;
+}
+.player-info{
+  font-size: 16px;
+  color: #6C6C6C;
+}
+.player-img img{
+  width: 100%;
+  height: 256px;
+}
